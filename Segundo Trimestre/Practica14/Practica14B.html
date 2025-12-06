@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title>Formularios | Practica 12 - B </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+	</head>
+	
+	<body>
+		<form>
+				<h1>Formulario de Registro</h1>
+			<table width="100%">
+				<tr>
+					<td width="50%" rowspan="2">
+						<p>
+							Nombre: 
+							<input 
+								type="text" 
+								name="nombre"
+								size="25"
+								maxlength="15"/>
+						
+						</p>
+						
+						<p>
+							Primer Apellido: 
+							<input 
+								type="text" 
+								name="apellido-1"
+								size="15"
+								maxlength="15"/>
+						
+						</p>
+						
+						<p>
+							Segundo Apellido: 
+							<input 
+								type="text" 
+								name="apellido-2"
+								size="25"
+								maxlength="15"/>
+						
+						</p>
+						
+						<p>
+							Dirección: 
+							<input 
+								type="text" 
+								name="direccion"
+								size="25"
+								maxlength="35"/>
+						</p>
+						<p>
+							CP: 
+							<input 
+								type="text" 
+								name="cPostal"
+								size="3"
+								maxlength="5"/>
+						</p>
+						<p>
+						Estudios: <br/>
+							<select name="q" size="1" tabindex="1">
+								<option
+									value="">
+										--- Selecciona tus estudios en esta lista ---
+								</option>
+								<optgroup
+									label="Informatica y Comunicaciones">
+									<option
+									value="ASIR">
+										Administracion de Sistemas Informaticos en Red
+									</option>
+									<option
+									value="DAW">
+										Desarrollo de Aplicaciones Web
+									</option>
+									<option
+									value="STI">
+										Sistemas de Telecomunicacion e Informaticos
+									</option>
+								</optgroup>
+								
+								<optgroup
+									label="Comercio y Administración">
+									<option
+									value="TL">
+										Transporte y Logistica
+									</option>
+									<option
+									value="AF">
+										Administracion y Finanzas
+									</option>
+								</optgroup>
+								<optgroup
+									label="Laboratorios">
+									<option
+									value="LACC">
+										Laboratorio de Analisis y Control de Calidad
+									</option>
+									<option
+									value="LCB">
+										Laboratorio Clinico y Biomedico
+									</option>
+								</optgroup>
+							</select>
+						</p>
+						
+						<p>
+							Comentarios: <br/>
+							<textarea 
+								name="Comentarios"
+								rows = "10"
+								cols = "40"></textarea>
+						</p>
+						
+								
+					
+					</td>
+					
+					<td width="50%" valign="top">
+						<p>
+							Sexo <br/>
+							<input type="radio"
+							name="edad"
+							value="mujerOK"/>
+							Mujer
+							<br/>
+							<input type="radio"
+							name="edad"
+							value="hombreOK"/>
+							Hombre
+						</p>
+						<p>
+							Turno: <br/>
+							<input type="radio"
+							name="edad"
+							value="mañanaOK"/>
+							Mañana
+							<br/>
+							<input type="radio"
+							name="edad"
+							value="tardeOK"/>
+							Tarde
+						</p>			
+					
+					</td>
+				</tr>
+				<tr>
+						<td colspan="2"  valign="top" width="25%">
+						<p>
+							<input type="checkbox"
+							name="comp1"
+							value="comp1OK"
+							checked="checked"/>
+							Euskera<br/>
+							
+							<input type="checkbox"
+							name="comp2"
+							value="comp2OK"/>
+							Inglés<br/>
+							
+							<input type="checkbox"
+							name="comp3"
+							value="comp3OK"/>
+							Alemán<br/>
+						</p>
+						
+					</td>
+				
+				</tr>
+				
+				<tr >
+					<td colspan="2" valign ="middle" align="center" >
+					<p>
+							<input 
+							type="submit" 
+							value="Enviar Datos"/>
+						
+							<input 
+							type="reset" 
+							value="Limpiar"/>
+						</p>	
+					
+					</td>
+				
+				</tr>
+					
+			</table>
+		</form>
+	</body>
+</html>
+
+
