@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title>Formularios | Practica 15 - A </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+	</head>
+	
+	<body>
+		<form method="post" action="mailto:argeme.vila@zabalburu.org?subject=Práctica15A" enctype="text/plain">
+			<h1>Ejemplo &lt;fieldset&gt; y &lt;label&gt;</h1>
+			<fieldset>
+				<legend>Informacion Personal </legend>
+					Nombre: 
+						<input 
+							type="text" 
+							name="nombre"
+							size="25"
+							maxlength="15"/>
+				
+					Apellido: 
+						<input 
+							type="text" 
+							name="apellido"
+							size="15"
+							maxlength="15"/>
+			
+					<input type="checkbox"
+						name="edad"
+						value="mayorEdad"/>
+						Mayor de Edad
+			</fieldset>
+			
+			<fieldset>
+			<legend>Informacion Académica </legend>
+					Universidad: 
+						<input 
+							type="text" 
+							name="universidad"
+							size="25"
+							maxlength="15"/>
+				
+						<input type="checkbox"
+							name="titulo"
+							value="titulacion"/>
+							Titulo Obtenido
+							
+				<p>
+					<input type="checkbox"
+						name="euskera"
+						value="euskera"/>
+						Euskera<br/>
+							
+						<input type="checkbox"
+						name="Ingles"
+						value="Ingles"/>
+						Inglés<br/>
+							
+						<input type="checkbox"
+						name="Aleman"
+						value="Aleman"/>
+						Alemán<br/>
+				</p>
+			</fieldset>
+			<fieldset>
+					<input 
+						type="submit" 
+						value="Enviar Correo"/>
+						
+					<input 
+						type="reset" 
+						value="Nuevo Registro"/>
+			</fieldset>
+		</form>
+		
+	
+
+
+
+
+	</body>
+</html>
+
+
