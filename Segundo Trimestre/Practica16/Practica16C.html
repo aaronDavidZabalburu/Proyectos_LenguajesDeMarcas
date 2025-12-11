@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<title>Formularios | Practica 16 - C </title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+</head>
+
+	<body>
+		<form method="post" action="mailto:argeme.vila@zabalburu.org" enctype="text/plain">
+		<h1>Formulario de Registro de Datos</h1>
+			<table width="100%" >
+
+				<tr>
+					<td colspan="2" align="center"><hr/>Informacion de Registro<hr/></td>
+				</tr>
+
+				<tr>
+					<td style="width:50%" align ="right">
+						<p>E-mail:</p>
+						<p>Password:</p>
+						<p>Confirma Contraseña:</p>
+					</td>
+
+					<td style="width:50%" align ="left">
+						<p>						
+							<input 
+							name="email"
+							type="text"
+							size="35"
+							maxlength="35"
+							tabindex="1"/>
+						</p>
+
+						<p>						
+							<input 
+							name="pass"
+							type="text"
+							size="15"
+							maxlength="15"
+							tabindex="2"/>
+						</p>
+						<p>
+							<input 
+							name="confirmPass"
+							type="text"
+							size="15"
+							maxlength="15"
+							tabindex="3"/>
+						</p>		
+					</td>
+				</tr>
+
+				<tr >
+					<td colspan="2" align="center"><hr/>Informacion de Personal<hr/></td>
+				</tr>
+				<tr >
+						<td style="width:50%" align ="right">
+							<p>Nombre:</p>
+							<p>Apellidos:</p>
+							<p>Direccion:</p>
+							<p>País:</p>
+							<p>Teléfono:</p>
+						</td>
+
+						<td style="width:50%" align ="left">
+						<p>						
+							<input 
+							name="nombre"
+							type="text"
+							size="35"
+							maxlength="35"
+							tabindex="4"/>
+						</p>
+
+						<p>						
+							<input 
+							name="apellidos"
+							type="text"
+							size="50"
+							maxlength="50"
+							tabindex="5"/>
+						</p>
+
+						<p>
+							<input 
+							name="direcc"
+							type="text"
+							size="35"
+							maxlength="35"
+							tabindex="6"/>
+						</p>
+
+						<p>
+							<input 
+							name="pais"
+							type="text"
+							size="2"
+							maxlength="2"
+							tabindex="7"/>
+
+							C.P.:
+							<input 
+							name="cPostal"
+							type="text"
+							size="5"
+							maxlength="5"
+							tabindex="8"/>
+						</p>
+
+						<p>
+							<input 
+							name="tlf"
+							type="text"
+							size="9"
+							maxlength="9"
+							tabindex="9"/>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><hr/>Tarjeta de Credito<hr/></td>
+				</tr>
+				<tr>
+				<td style="width:50%" align ="right">
+						<p>Tipo de Tarjeta:</p>
+				</td>
+				<td style="width:50%" align ="left">
+						<p>						
+							<input 
+							name="tipoTarjeta"
+							type="radio"
+							value="mastercard"
+							tabindex="10"
+							/> MasterCard
+						<br/>					
+							<input 
+							name="tipoTarjeta"
+							type="radio"
+							value="visa"
+							tabindex="11"
+							/>Visa
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td style="width:50%" align ="right">
+						<p>Nº Tarjeta:</p>
+					</td>
+					<td>
+						<p>						
+							<input 
+							name="numTarjeta"
+							type="text"
+							size="20"
+							maxlength="20"
+							tabindex="12"/>
+						</p>
+					</td>
+				</tr>
+				<tr >
+					<td style="width:50%" align ="right">
+						<p>Fecha de Caducidad:</p>
+					</td>
+					<td>
+
+						<p>Mes:
+						<select name="Mes" tabindex="13">
+
+							<option 
+							selected="selected"
+							value="">MM</option>
+
+							<option
+							value="Enero">
+								01
+							</option>
+							<option
+							value="Febrero">
+								02
+							</option>
+							<option
+							value="Marzo">
+								03
+							</option>
+							<option
+							value="Abril">
+								04
+							</option>
+							<option
+							value="Mayo">
+								05
+							</option>
+							<option
+							value="Junio">
+								06
+							</option>
+							<option
+							value="Julio">
+								07
+							</option>
+							<option
+							value="Agosto">
+								08
+							</option>
+							<option
+							value="Septiembre">
+								09
+							</option>
+							<option
+							value="Octubre">
+								10
+							</option>
+							<option
+							value="Noviembre">
+								11
+							</option>
+							<option
+							value="Diciembre">
+								12
+							</option>
+						</select>
+						Año:
+						<select name="Año" tabindex="14">
+
+							<option 
+							selected="selected"
+							value="">AAAA</option>
+
+							<option
+							value="2022">
+								2022
+							</option>
+							<option
+							value="2021">
+								2021
+							</option>
+							<option
+							value="2020">
+								2020
+							</option>
+							<option
+							value="2019">
+								2019
+							</option>
+							<option
+							value="2018">
+								2018
+							</option>
+							<option
+							value="2017">
+								2017
+							</option>
+							<option
+							value="2017">
+								2017
+							</option>
+							<option
+							value="2017">
+								2017
+							</option>
+							<option
+							value="2016">
+								2016
+							</option>
+							<option
+							value="2015">
+								2015
+							</option>
+							<option
+							value="2014">
+								2014
+							</option>
+							<option
+							value="2013">
+								2013
+							</option>
+							<option
+								value="2012">
+								2012
+							</option>
+						</select>
+						</p>
+					</td>
+
+				</tr>
+
+				<tr align="center" >
+					<td colspan="2"  >		
+						<p><hr/>
+						<input 
+							type="submit"
+							tabindex="15"								
+							value="Enviar Datos"/>
+
+						<input
+							tabindex="16"	
+							type="reset" 
+							value="Limpiar"/>
+						</p>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+
+
