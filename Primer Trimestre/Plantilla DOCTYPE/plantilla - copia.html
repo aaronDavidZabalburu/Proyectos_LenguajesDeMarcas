@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title> </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+	<style>
+        /* CSS Básico para que se vea limpio y ordenado */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* El contenedor principal del formulario */
+        .formulario-caja {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px; /* Ancho máximo para que no se estire demasiado */
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-top: 0;
+        }
+
+        /* Agrupamos cada etiqueta e input */
+        .campo {
+            margin-bottom: 20px;
+        }
+
+        /* Estilo de las etiquetas (los textos encima de las cajas) */
+        label {
+            display: block; /* Hace que la etiqueta ocupe su propia línea */
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        /* Estilo de las cajas de texto y el área de mensaje */
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%; /* Ocupa todo el ancho disponible */
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; /* Importante para que el padding no rompa el ancho */
+            font-size: 14px;
+        }
+
+        /* Estilo específico para el área de mensaje para que sea más alta */
+        textarea {
+            resize: vertical; /* Permite al usuario estirar la caja solo hacia abajo */
+            height: 100px;
+        }
+
+        /* Estilo del botón de enviar */
+        .boton-enviar {
+            width: 100%;
+            padding: 12px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .boton-enviar:hover {
+            background-color: #0056b3; /* Color un poco más oscuro al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="formulario-caja">
+        <h2>Contáctanos</h2>
+        
+        <form action="#" method="post">
+            
+            <div class="campo">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="campo">
+                <label for="mensaje">Tu Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu consulta..." required></textarea>
+            </div>
+
+            <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+
+        </form>
+        </div>
+</html>
+
+

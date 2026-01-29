@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title> </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	</head>
+	<body>
+		<h1>Formulario de Registro de Campeonato</h1>
+		<form>
+			<table summary="Tabla para dar estilos al formulario" width="100%">
+				<tr valign="top">
+					<td>
+						<fieldset>
+							<legend>Selección de Carrera:</legend>
+							<select name="carrera" size="1" tabindex="1">
+								<option selected="selected"> -- Selecciona Carrera -- </option>
+								<option>10 Km</option>
+								<option>5 KM</option>
+								<option>Maratón</option>
+								<option>3 Km</option>
+							</select>
+						</fieldset>
+					</td>
+					<td>
+						<fieldset>
+							<legend>Clase de Carrera:</legend>
+							<select name="ClaseCarrera" size="3" tabindex="2">
+								<option>Abierto (21 +)</option>
+								<option>Maestro (30 +)</option>
+								<option>Veteranos (40 +)</option>
+								<option>Jovenes (16 - 20)</option>
+								<option>Novatos (12 - 15)</option>
+							</select>
+						</fieldset>
+					</td>
+					<td>
+						<fieldset>
+							<legend>Competición:</legend>
+							<p>
+								<input id="opc1" type="radio" name="competicion" value="fondo"/><label for="opc1">Fondo</label><br/>
+								<input id="opc2" type="radio" name="competicion" value="marcha"/><label for="opc2">Marcha</label><br/>						
+								<input id="opc3" type="radio" name="competicion" value="SRuedas"/><label for="opc3">Silla de Ruedas</label><br/>
+							</p>
+						</fieldset>
+					</td>
+				</tr>
+
+				<tr valign="top">
+					<td>
+						<fieldset>
+							<legend>Medio de Transporte:</legend>
+							<p>
+								<input id="cbx1" type="checkbox" name="avion" value="fondo"/><label for="cbx1">Avión</label><br/>
+								<input id="cbx2" type="checkbox" name="barco" value="marcha"/><label for="cbx2">Barco</label><br/>						
+								<input id="cbx3" type="checkbox" name="tren" value="SRuedas"/><label for="cbx3">Tren</label><br/>
+								<input id="cbx4" type="checkbox" name="bus" value="SRuedas"/><label for="cbx4">Autobús</label><br/>
+								<input id="cbx5" type="checkbox" name="coche" value="SRuedas"/><label for="cbx5">Vehículo Propio</label><br/>
+							</p>
+						</fieldset>
+					</td>
+					<td>
+						<fieldset>
+							<legend>Metodos de Pago:</legend>
+							<p>
+								<input id="rd1" type="radio" name="pago" value="efectivo"/><label for="rd1">Efectivo</label><br/>
+								<input id="rd2" type="radio" name="pago" value="gpersonal"/><label for="rd2">Giro Personal</label><br/>						
+								<input id="rd3" type="radio" name="pago" value="cheque"/><label for="rd3">Cheque</label><br/>
+								<input id="rd4" type="radio" name="pago" value="tcredito"/><label for="rd4">Tarjeta de Credito</label><br/>
+							</p>
+						</fieldset>
+					</td>
+					<td>
+						<fieldset>
+							<legend>Tipo de Tarjeta:</legend>
+							<p>	
+								<input id="tt1" type="radio" name="competicion" value="visa"/><label for="tt1">Visa</label><br/>
+								<input id="tt2" type="radio" name="competicion" value="aexpress"/><label for="tt2">American Express</label><br/>						
+								<input id="tt3" type="radio" name="competicion" value="4b"/><label for="tt3">4B</label><br/>
+								<input id="tt4" type="radio" name="competicion" value="servired"/><label for="tt4">Servired</label><br/>
+								<input id="tt5" type="radio" name="competicion" value="red6000"/><label for="tt5">Red 6000</label>
+							</p>
+						</fieldset>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					<hr/>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="3">
+					<input type="submit" name="enviarDatos" value="Enviar Datos"/>
+					<input type="reset" name="limpiarDatos" value="Limpiar Datos"/>
+					
+					</td>
+				</tr>
+			</table>
+			
+		</form>
+	</body>
+</html>
+
+
